@@ -20,26 +20,25 @@ body {
   margin: 0px;
   font-size: 1.5rem;
   font-family: roboto;
+  background-color: var(--ContainerBackgroundColor);
 }
 
+header {
+  color: var(--textColor);
+  width: 90%;
+  margin: 6rem auto;
+  text-align: center;
+}
 .container {
   min-height: 100vh;
-  background-color: var(--ContainerBackgroundColor);
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
 
 .thin-h1 {
   font-family: robot-thin;
   color: var(--textColor);
-}
-.description {
-  color: var(--textColor);
-  width: 90%;
-  margin: 0 auto;
-  text-align: center;
 }
 
 .cards-container {
