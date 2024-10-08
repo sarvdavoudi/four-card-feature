@@ -54,6 +54,10 @@ header {
   border-radius: 5px;
   display: flex;
   flex-direction: column;
+  transition: transform 0.3s ease-out;
+}
+.card:hover{
+  transform: scale(1.1);
 }
 
 .card > img {
